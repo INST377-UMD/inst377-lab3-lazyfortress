@@ -1,0 +1,96 @@
+/* Entire body styling */
+body {
+    font-family: Comic Cambria, Cochin, Georgia, Times, 'Times New Roman', serif; /* Custom font */
+    background-color: paleturquoise; 
+    margin: 5px;
+    padding: 5px;
+}
+
+/* .container refers to the container class */
+.container {
+    width: 100%;
+    padding: 20px;
+    overflow: hidden;
+}
+
+section {
+    width: 70%; /* Main section width */
+    background-color: mediumslateblue;
+    padding: 20px;
+    border-radius: 5px;
+    float: left;
+}
+
+/* Sidebar style */
+aside {
+    width: 20%; /* Sidebar width */
+    background-color: mediumaquamarine;
+    padding: 15px; /* Interior spacing */
+    border-radius: 5px;
+    float: right;
+    margin-right: 20px;
+}
+
+/* Only underline the sidebar h2 */
+aside h2 {
+    text-decoration: underline;
+}
+
+/* Sidebar hover */
+aside:hover {
+    background-color: darkseagreen;
+}
+
+/* Text box expansion */
+input[type="text"]:focus {
+    width: 250px;
+}
+
+/* Header and footer modifications */
+.header-footer {
+    background-color: skyblue; 
+    color: white; /* White text */
+    text-align: center; /* Center text */
+    padding: 15px; /* Padding for spacing */
+    margin-bottom: 10px; /* Separation from container */
+}
+
+h1 {
+    margin: 0;
+}
+
+/* Navigation bar */
+nav {
+    background-color: navy; 
+    padding: 10px; 
+    text-align: center;
+}
+
+/* Navigation list */
+nav ul {
+    list-style: none; /* Removes default style */
+    margin: 0;
+    padding: 0;
+    justify-content: center;
+}
+
+/* Nav list items */
+nav ul li {
+    display: inline-block; 
+}
+
+/* Hyperlink style */
+nav ul li a {
+    display: block;
+    padding: 20px 20px; /* Highlights */
+    color: white;
+    text-decoration: none; /* Underline removal*/
+    font-weight: bold;
+    font-size: 16px;
+}
+
+/* Hyperlink hover */
+nav ul li a:hover {
+    background-color: paleturquoise;
+    color: yellowgreen; 
+}
